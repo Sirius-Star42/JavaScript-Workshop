@@ -8,8 +8,9 @@
     box-sizing: content-box;
     display: flex;
     justify-content: center;
+
 }
-s
+
 .banner {
     display: flex;
     flex-direction: column;
@@ -33,5 +34,11 @@ s
     border-radius: 4px;
     padding: 7px;
     width: 23.5rem;
+    text-align: center;
+}
+button {
+    padding: 5px 15px;
+    border-radius: 4px;
+    
 }
 

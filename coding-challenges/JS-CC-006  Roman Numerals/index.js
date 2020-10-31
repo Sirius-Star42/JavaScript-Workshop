@@ -28,9 +28,7 @@ function convert() {
         }
     j *= 10  
     }
-
-    document.getElementById("result").innerHTML =  + roman.join("")
-
+    document.getElementById("result").innerHTML = roman.join("")
 }
 
     
