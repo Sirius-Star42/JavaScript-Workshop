@@ -29,7 +29,7 @@ function convert() {
     j *= 10  
     }
 
-    document.getElementById("result").innerHTML = "Roman Numeral : " + roman.join("")
+    document.getElementById("result").innerHTML =  + roman.join("")
 
 }
 
