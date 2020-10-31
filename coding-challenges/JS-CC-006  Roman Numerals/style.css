@@ -19,7 +19,7 @@
     align-self: center;
     /* box-sizing: content-box; */
     padding: 6px;
-    border: 2px solid #7c43bd;
+    border: 2px solid black;
     border-radius: 5px;  
 }
 
@@ -33,7 +33,7 @@
 #text {
     border-radius: 4px;
     padding: 7px;
-    width: 23.5rem;
+    
     text-align: center;
 }
 button {
