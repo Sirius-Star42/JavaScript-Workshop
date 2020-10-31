@@ -1,0 +1,30 @@
+.container {
+    background-image: url("https://www.historyhit.com/app/uploads/2020/07/roman-numeral-clock-face-1-1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+    
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: red;
+    box-sizing: content-box;
+   
+    
+   
+    
+}
+
+
+
+#text {
+    
+}
+
