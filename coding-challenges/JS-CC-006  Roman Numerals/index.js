@@ -18,7 +18,7 @@ function convert() {
     1000 : "M"   
 };
     
-    var j = 1;  //530 DXXX
+    var j = 1;  
     
     for (i=x.length-1; i >-1; i--) {
         if (5 < x[i] && x[i] < 9) {
