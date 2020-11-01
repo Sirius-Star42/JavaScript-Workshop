@@ -11,25 +11,31 @@ function convert() {
     40 : "XL",
     50 : "L",
     90 : "XC",
-    100 : "C",
+    100 : "C",   
     400 : "CD",
     500 : "D",
     900 : "CM",
     1000 : "M"   
 };
-
-    var j = 1;
-
+    
+    var j = 1;  //530 DXXX
+    
     for (i=x.length-1; i >-1; i--) {
-        if ((x[i] * j) in lst ) {
-            roman.unshift(lst[x[i] * j])
-        } else {
-            roman.unshift(lst[j].repeat(x[i]))
-        }
+        if (5 < x[i] && x[i] < 9) {
+            roman.unshift( lst[5 * j] , lst[j].repeat(x[i]%5))
+
+        } else if (x[i] in lst ) {
+            roman.unshift(lst[x[i] * j  ])
+
+            } else {
+            roman.unshift(lst[j].repeat(x[i]) )
+            };
     j *= 10  
+    
     }
     document.getElementById("result").innerHTML = roman.join("")
-}
-
     
+};
+
+
 
